@@ -8,11 +8,17 @@
 //static char *font = "monospace:size=9:antialias=true:autohint=true";
 //static char *font = "-lucy-tewi-*-*-*-*-*-*-*-*-*-*-*-*";
 //static char *font= "-xos4-terminus-*-*-*-*-14-*-*-*-*-*-*-*";
-//static char *font = "Noto Sans Mono:pixelsize=12:antialias=true:autohint=true";
-//static char *font = "-*-haxor-*-*-*--15-*-*-*-*-*-*-*";
-static char *font = "-*-spleen-medium-r-*-*-17-*-*-*-*-*-*-*";
+static char *font = "Red Hat Mono:pixelsize=13:antialias=true:autohint=true";
+//static char *font = "dina:pixelsize=13";
+//static char *font = "-ucw.cz-haxor-medium-r-normal--12-120-72-72-c-72-iso8859-2";
+//static char *font = "-*-spleen-medium-r-*-*-17-*-*-*-*-*-*-*";
 //static char *font="spleen:pixelsize=16";
 static int borderpx = 2;
+
+/* disable bold, italic and roman fonts globally */
+int disablebold = 1;
+int disableitalic = 1;
+int disableroman = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:

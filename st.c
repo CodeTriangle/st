@@ -401,6 +401,11 @@ base64dec(const char *src)
 	return result;
 }
 
+/* declared in config.h */
+extern int disablebold;
+extern int disableitalic;
+extern int disableroman;
+
 void
 selinit(void)
 {
